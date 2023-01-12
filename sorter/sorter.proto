@@ -1,0 +1,14 @@
+syntax = "proto3";
+package sorter;
+
+// option go_package = "生成位置;包名";
+option go_package = "./sorter;sorter";
+
+message Numbers {
+  repeated int64  numbers = 1;
+  optional int64 index = 2;
+}
+
+service Sorter {
+  rpc QuickSort(Numbers) returns (Numbers) {}
+}
