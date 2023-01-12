@@ -29,3 +29,7 @@ go run server.go
 ```shell
 go run client.go
 ```
+
+# 参考
+
+[proto 文件语法指南](https://jergoo.gitbooks.io/go-grpc-practice-guide/content/chapter1/protobuf.html)
